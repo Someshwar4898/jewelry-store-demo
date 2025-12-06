@@ -1,0 +1,1353 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-content: space-between;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 2px 2px 10px silver;
+}
+.logo{
+    width: 30%;
+    height: 10vh;
+    padding: 20px 40px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.menu{
+    width: 60%;
+    height: 10vh;
+}
+.menu ul{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-left: 150px;
+}
+.menu ul li{
+    list-style-type: none;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    padding: 30px 20px;
+}
+.menu ul li a:hover{
+    color: gold;
+    cursor: pointer;
+}
+.login{
+    width: 10%;
+    height: 10vh;
+}
+.login ul{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    margin-left: 10px;
+}
+.login ul li{
+    list-style-type: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 20px 20px;
+}
+.login ul li a:hover{
+    color: gold;
+    cursor: pointer;
+}
+.form{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.form1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.registration{
+    width: 30%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:space-around;
+    margin-top: 150px;
+    box-shadow: 2px 2px 30px silver ;
+    border-radius: 10px;
+}
+.registration h2{
+    width: 80%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+.registration p{
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+}
+.registration p span a{
+    padding-left: 20px;
+    color: blue;
+}
+.registration p span a:hover{
+    color: gold;
+}
+.registration label{
+    width: 80%;
+    height: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
+.registration input{
+    width: 80%;
+    height: 50px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.registration button{
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.registration button:hover{
+    color: black;
+    background-color: gold;
+    cursor: pointer;
+}
+.detail{
+    width: 30%;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-evenly;
+    margin-top: 200px;
+    box-shadow: 2px 2px 30px silver ;
+}
+.detail h2{
+    width: 80%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.detail p{
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+}
+.detail p span a{
+    padding-left: 20px;
+    color: blue;
+}
+.detail p span a:hover{
+    color: gold;
+}
+.detail input{
+    width: 80%;
+    height: 50px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.detail button{
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.detail button:hover{
+    color: black;
+    background-color: gold;
+    cursor: pointer;
+}
+.end{
+    width: 100%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.info{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.info ul{
+    width: 100%;
+    height: 30vh;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-between;
+}
+.info ul li{
+    width: 100%;
+    height: 20px;
+    color: black;
+    font-size: large;
+}
+.info ul li a:hover{
+    color: gold;
+    cursor: pointer;
+}
+.name{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.jp{
+    width: 60%;
+    height: 40vh;
+    align-items: center;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+.jp img{
+    width: 100%;
+    height: 10vh;
+}
+.company{
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.info h3{
+    width: 100%;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.help{
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.contactus{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contactus p{
+    width: 100%;
+    height: 20vh;
+    font-size: large;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.contactus p span{
+    width: 100%;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+}
+.contactus span i{
+    margin-right: 20px;
+}
+.contactus p span:hover{
+    cursor: pointer;
+    color: gold;
+    transition: 1s;
+}
+.icons{
+    width: 30%;
+    height: 10vh;
+    font-size: 25px;
+    display: flex;
+    padding-left: 100px;
+}
+.icons i{
+    width: 10%;
+    height: 6vh;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+.icons i:hover{
+    color: black;
+    background-color: gold;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    font-size: large;
+    background-color: whitesmoke;
+}
+footer a:hover{
+    color: gold;
+}
+.ending{
+    width: 100%;
+    height: 10vh;
+}
+.eimg{
+    width: 100%;
+    height: 10vh;
+}
+.eimg img{
+    width: 100%;
+    height: 10vh;
+}
+.banner{
+    width: 100%;
+    height: 120vh;
+    padding-top: 150px;
+    background-color: whitesmoke;
+}
+.heading1 h2{
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 210px;
+    margin-top: -50px;
+    position: absolute;
+}
+.heading2 h2{
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 1100px;
+    margin-top: -200px;
+    position: absolute;
+}
+.banimage{
+    width: 100%;
+    height: 90vh;
+    padding-left: 250px;
+    position: relative;
+    margin-top: 50px;
+}
+.about{
+    width: 100%;
+    height: 120vh;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.abimg{
+    width: 30%;
+    height: 100vh;
+}
+.aimg{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.aimg img{
+    width: 100%;
+    height: 90vh;
+}
+.afterimg{
+    width: 1.5%;
+    height: 20vh;
+    background-color: gold;
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 445px;
+}
+.abcont{
+    width: 65%;
+    height: 40vh;
+    margin-top: 200px;
+}
+.abcont span{
+    width: 40%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+span i{
+    padding-top: 10px;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.abcont p{
+    width: 80%;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.para button{
+    width: 18%;
+    height: 8vh;
+    margin-top: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    color: silver;
+    border: 2px solid silver;
+}
+.para button a{
+    color: silver;
+}
+.para button a:hover{
+    color: gold;
+    cursor: pointer;
+}
+.para button:hover{
+    color: gold;
+    border-color: gold;
+    cursor: pointer;
+}
+.test{
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.heading3{
+    width: 100%;
+    height: 10vh;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+}
+.heading3 span{
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.tcont{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+    margin-top: 50px;
+    padding-top: 50px;
+    border: 2px solid silver;
+}
+.timg{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.tpara{
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-evenly;
+    margin-top: 80px;
+}
+.tpara h3{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.tpara p{
+    font-size: large;
+    color: silver;
+}
+.tpara i{
+    font-size: 35px;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 150px;
+}
+.heading4{
+    width: 100%;
+    height: 20vh;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+.heading4 h2{
+    font-size: 50px;
+    font-weight: 1000; ;
+}
+.heading4 span{
+    font-weight: 1000;
+    color: #0d114e;
+}
+hr{
+    width: 100%;
+    height: 1px;
+    border: white;
+}
+.table{
+    width: 100%;
+    height: 80vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.data input{
+    width: 48%;
+    height: 50px;
+    border: none;
+    font-size: larger;
+    padding-left: 10px;
+}
+.data textarea{
+    border: none;
+    width: 97%;
+    height: 10vh;
+    font-size: larger;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.data{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    padding-top: 70px;
+}
+.first{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.second{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.third{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourth{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.fourth button{
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.fourth  a{
+    width: 12%;
+    color: black;
+
+}
+.fourth button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.fourth button a:hover{
+    color: white;
+}
+.popular{
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.heading5{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.heading5 span{
+    width: 40%;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.poprod{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.gold1{
+    width: 30%;
+    height: 50vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.gold1 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.g1img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.gold1 img{
+    width: 40%;
+    height: 150px;
+}
+.gold1  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.gold1 a{
+    width: 50%;
+    color: silver;
+}
+.gold1 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.gold1 a:hover{
+    color: gold;
+}
+.gold2{
+    width: 30%;
+    height: 50vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.gold2 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.g2img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.gold2 img{
+    width: 70%;
+    height: 150px;
+    padding-bottom: 40px;
+}
+.gold2  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.gold2 a{
+    width: 50%;
+    color: silver;
+}
+.gold2 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.gold2 a:hover{
+    color: gold;
+}
+.gold3{
+    width: 30%;
+    height: 50vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.gold3 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.g3img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.gold3 img{
+    width: 60%;
+    height: 150px;
+    padding-bottom: 60px;
+}
+.gold3  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.gold3 a{
+    width: 50%;
+    color: silver;
+}
+.gold3 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.gold3 a:hover{
+    color: gold;
+}
+.blog{
+    width: 100%;
+    height: 120vh;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    align-content: space-evenly;
+}
+.heading6{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.heading6 span{
+    width: 25%;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.blprod{
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    align-content: space-around;
+}
+.bl1{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.bl1img{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.bl1img:hover{
+    background-color: white;
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+}
+.bl1img img{
+    width: 90%;
+    height: 30vh;
+}
+.bl1img h3{
+    width: 90%;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+.bl1img p{
+    width: 90%;
+    height: 50px;
+    font-size: 17px;
+    margin-top: -60px;
+}
+.bl1  button{
+    width: 100%;
+    height: 50px;
+    font-size: medium;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.bl1 a{
+    width: 40%;
+    color: silver;
+}
+.bl1 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.bl1 a:hover{
+    color: gold;
+}
+.bl2{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.bl2img{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.bl2img:hover{
+    background-color: white;
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+}
+.bl2img img{
+    width: 90%;
+    height: 30vh;
+}
+.bl2img h3{
+    width: 90%;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+.bl2img p{
+    width: 90%;
+    height: 50px;
+    font-size: 17px;
+    margin-top: -60px;
+}
+.bl2  button{
+    width: 100%;
+    height: 50px;
+    font-size: medium;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.bl2 a{
+    width: 40%;
+    color: silver;
+}
+.bl2 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.bl2 a:hover{
+    color: gold;
+}
+.bl3{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.bl3img{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.bl3img:hover{
+    background-color: white;
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+}
+.bl3img img{
+    width: 90%;
+    height: 30vh;
+}
+.bl3img h3{
+    width: 90%;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+.bl3img p{
+    width: 90%;
+    height: 50px;
+    font-size: 17px;
+    margin-top: -60px;
+}
+.bl3  button{
+    width: 100%;
+    height: 50px;
+    font-size: medium;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.bl3 a{
+    width: 40%;
+    color: silver;
+}
+.bl3 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.bl3 a:hover{
+    color: gold;
+}
+.products{
+    width: 100%;
+    height: 200vh;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.heading7{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.heading7 span{
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.prod{
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.ring1{
+    width: 29%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.ring1 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.r1img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ring1:hover{
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+    background-color: white;
+}
+.ring1 img{
+    width: 40%;
+    height: 150px;
+}
+.ring1 p{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+}
+.ring1  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.ring1 a{
+    width: 50%;
+    color: silver;
+}
+.ring1 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.ring1 a:hover{
+    color: gold;
+}
+.ring2{
+    width: 29%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.ring2 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.r2img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ring2:hover{
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+    background-color: white;
+}
+.ring2 img{
+    width: 40%;
+    height: 150px;
+}
+.ring2 p{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+}
+.ring2  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.ring2 a{
+    width: 50%;
+    color: silver;
+}
+.ring2 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.ring2 a:hover{
+    color: gold;
+}
+.ring3{
+    width: 29%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.ring3 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.r3img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ring3:hover{
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+    background-color: white;
+}
+.ring3 img{
+    width: 50%;
+    height: 160px;
+}
+.ring3 p{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+}
+.ring3  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.ring3 a{
+    width: 50%;
+    color: silver;
+}
+.ring3 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.ring3 a:hover{
+    color: gold;
+}
+.ring4{
+    width: 29%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.ring4 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.r4img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ring4:hover{
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+    background-color: white;
+}
+.ring4 img{
+    width: 40%;
+    height: 150px;
+    padding-bottom: 30px;
+}
+.ring4 p{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+}
+.ring4  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.ring4 a{
+    width: 50%;
+    color: silver;
+}
+.ring4 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.ring4 a:hover{
+    color: gold;
+}
+.ring5{
+    width: 29%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.ring5 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.r5img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ring5:hover{
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+    background-color: white;
+}
+.ring5 img{
+    width: 40%;
+    height: 150px;
+}
+.ring5 p{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+}
+.ring5  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.ring5 a{
+    width: 50%;
+    color: silver;
+}
+.ring5 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.ring5 a:hover{
+    color: gold;
+}
+.ring6{
+    width: 29%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.ring6 h4{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+.r6img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ring6:hover{
+    box-shadow: 10px 10px 50px silver;
+    transition: 1s;
+    background-color: white;
+}
+.ring6 img{
+    width: 30%;
+    height: 150px;
+    padding-bottom: 30px;
+}
+.ring6 p{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+}
+.ring6  button{
+    width: 100%;
+    height: 50px;
+    color: silver;
+    background-color: transparent;
+    border: 2px solid silver;
+}
+.ring6 a{
+    width: 50%;
+    color: silver;
+}
+.ring6 button:hover{
+    color: gold;
+    border:2px solid gold;
+    cursor: pointer;
+}
+.ring6 a:hover{
+    color: gold;
+}
